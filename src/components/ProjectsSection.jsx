@@ -42,7 +42,7 @@ const ProjectsSectionContainer = styled.section`
   padding: 20px;
   background-color: ${(props) => props.theme.palette.background.default};
   color: ${(props) => props.theme.palette.text.primary};
-  height:100vh;
+  height:90vh;
 `;
 
 const Tabs = styled.div`
