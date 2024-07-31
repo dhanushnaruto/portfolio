@@ -145,7 +145,7 @@ export const ContactUs = () => {
       <ContentWrapper>
         <LeftSide>
           <img src={img} alt="Contact" />
-          <div className="email-id">harishmano98@gmail.com</div>
+          <div className="email-id">dhanush568kumar@gmail.com</div>
         </LeftSide>
         <RightSide>
           <form ref={form} onSubmit={sendEmail}>
