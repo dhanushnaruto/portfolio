@@ -136,7 +136,7 @@ const HeroSection = () => {
           <Link className="link-button" to="/contact">
             <button>Contact</button>
           </Link>
-          <Link className="link-button" target=' ="_blank" ' to="https://drive.google.com/file/d/1fC3Rc1GXsrsZDRmmObjxGDJF3UVbz1Dt/view?usp=drivesdk">
+          <Link className="link-button" target=' ="_blank" ' to="https://drive.google.com/file/d/1G2Ch0P8Axu4o7nBrTLxsqC6cQjaXfuxT/view?usp=drivesdk">
             <button>Resume</button>
           </Link>
         </div>

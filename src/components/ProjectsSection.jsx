@@ -50,7 +50,7 @@ const Tabs = styled.div`
   justify-content: center;
   margin-bottom: 20px;
 
-  button {
+  button { 
     background: none;
     border: none;
     color: white;

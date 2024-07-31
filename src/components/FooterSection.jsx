@@ -47,7 +47,7 @@ const FooterSection = () => {
         </a>
       </div>
       <div className="copyright">
-        &copy; {currentYear} HARISH KUMAR M. All rights reserved.
+        &copy; {currentYear} DHANUSH KUMAR P. All rights reserved.
       </div>
     </FooterContainer>
   );
