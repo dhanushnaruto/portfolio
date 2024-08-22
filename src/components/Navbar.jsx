@@ -107,7 +107,7 @@ const Navbar = () => {
                             <Button color="inherit" component={Link} to="/projects">
                                 <Work /> Projects
                             </Button>
-                            <Button color="inherit" component={Link} target='_blank' to="https://drive.google.com/file/d/1G2Ch0P8Axu4o7nBrTLxsqC6cQjaXfuxT/view?usp=drivesdk">
+                            <Button color="inherit" component={Link} target='_blank' to="https://drive.google.com/file/d/1PF0lecS-8PozDhZOPHl3-vs-WrJtnscy/view?usp=drivesdk">
                                 <Description /> Resume
                             </Button>
                             <IconButton color="inherit" component="a" href="https://github.com/dhanushnaruto" target="_blank" rel="noopener noreferrer">
@@ -146,7 +146,7 @@ const Navbar = () => {
                                     </ListItemIcon>
                                     <ListItemText primary="Projects" />
                                 </ListItem>
-                                <ListItem button component={Link} target="_blank" to="https://drive.google.com/file/d/1aoVsWrIt94HIiX42QVYAr3qUA6LwFksf/view?usp=drivesdk">
+                                <ListItem button component={Link} target="_blank" to="https://drive.google.com/file/d/1PF0lecS-8PozDhZOPHl3-vs-WrJtnscy/view?usp=drivesdk">
                                     <ListItemIcon>
                                         <Description />
                                     </ListItemIcon>
