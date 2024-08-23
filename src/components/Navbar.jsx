@@ -113,7 +113,7 @@ const Navbar = () => {
                             <IconButton color="inherit" component="a" href="https://github.com/dhanushnaruto" target="_blank" rel="noopener noreferrer">
                                 <GitHub />
                             </IconButton>
-                            <IconButton color="inherit" component="a" href="https://www.linkedin.com/in/dhanush-kumar-palanivel-2a3312245/" target="_blank" rel="noopener noreferrer">
+                            <IconButton color="inherit" component="a" href="www.linkedin.com/in/pdku" target="_blank" rel="noopener noreferrer">
                                 <LinkedIn />
                             </IconButton>
                         </MenuLinks>
@@ -152,13 +152,13 @@ const Navbar = () => {
                                     </ListItemIcon>
                                     <ListItemText primary="Resume" />
                                 </ListItem>
-                                <ListItem button component="a" href="https://github.com/Harish-kumar-M-1998" target="_blank" rel="noopener noreferrer">
+                                <ListItem button component="a" href="https://github.com/dhanushnaruto" target="_blank" rel="noopener noreferrer">
                                     <ListItemIcon>
                                         <GitHub />
                                     </ListItemIcon>
                                     <ListItemText primary="GitHub" />
                                 </ListItem>
-                                <ListItem button component="a" href="https://www.linkedin.com/in/harish-kumar-m-871335280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                                <ListItem button component="a" href="www.linkedin.com/in/pdku" target="_blank" rel="noopener noreferrer">
                                     <ListItemIcon>
                                         <LinkedIn />
                                     </ListItemIcon>
