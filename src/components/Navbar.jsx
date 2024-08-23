@@ -113,7 +113,7 @@ const Navbar = () => {
                             <IconButton color="inherit" component="a" href="https://github.com/dhanushnaruto" target="_blank" rel="noopener noreferrer">
                                 <GitHub />
                             </IconButton>
-                            <IconButton color="inherit" component="a" href="www.linkedin.com/in/pdku" target="_blank" rel="noopener noreferrer">
+                            <IconButton color="inherit" component="a" href="https://www.linkedin.com/in/pdku/" target="_blank" rel="noopener noreferrer">
                                 <LinkedIn />
                             </IconButton>
                         </MenuLinks>
@@ -158,7 +158,7 @@ const Navbar = () => {
                                     </ListItemIcon>
                                     <ListItemText primary="GitHub" />
                                 </ListItem>
-                                <ListItem button component="a" href="www.linkedin.com/in/pdku" target="_blank" rel="noopener noreferrer">
+                                <ListItem button component="a" href="https://www.linkedin.com/in/pdku/" target="_blank" rel="noopener noreferrer">
                                     <ListItemIcon>
                                         <LinkedIn />
                                     </ListItemIcon>
