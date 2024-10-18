@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaGithub, FaDatabase, FaRobot,FaReact } from 'react-icons/fa';
-import { SiExpress, SiMongodb,  SiPostman } from 'react-icons/si';
+import { SiExpress, SiMongodb,  SiPostman, SiRedux } from 'react-icons/si';
 
 // Styled-components for SkillsSection
 const SkillsSectionContainer = styled.div`
@@ -151,9 +151,13 @@ const SkillsSection = () => {
           <SiMongodb className="icon" />
           <div className="title">MongoDB</div>
         </SkillCard>
-        <SkillCard onClick={() => handleClick('redux')}>
+        <SkillCard onClick={() => handleClick('react')}>
           <FaReact className="icon" />
           <div className="title">React</div>
+        </SkillCard>
+        <SkillCard onClick={() => handleClick('redux')}>
+          <SiRedux className="icon" />
+          <div className="title">Redux</div>
         </SkillCard>
         <SkillCard onClick={() => handleClick('github')}>
           <FaGithub className="icon" />
