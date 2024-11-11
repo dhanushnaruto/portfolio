@@ -33,6 +33,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     padding-top: 64px;
     scroll-behavior: smooth;
+    
   }
 `;
 
@@ -45,6 +46,7 @@ const MenuLinks = styled.div`
   justify-content: end;
   align-items: center;
   width: 100%;
+  
 
   @media (max-width: 768px) {
     display: none;
@@ -87,7 +89,7 @@ const Navbar = () => {
         <>
             <GlobalStyle />
             <NavbarContainer>
-                <AppBar position="fixed" color="primary" style={{ zIndex: 1201 }}>
+                <AppBar position="fixed" color="primary" >
                     <Toolbar>
                         <MenuIconWrapper>
                             <IconButton edge="start" color="inherit" aria-label="menu" onClick={toggleDrawer(true)}>
@@ -97,7 +99,7 @@ const Navbar = () => {
                         <h1 style={{ flexGrow: 1 }}>
                             Dk
                         </h1>
-                        <MenuLinks>
+                        <MenuLinks >
                             <Button color="inherit" component={Link} to="/">
                                 <Info /> About
                             </Button>
